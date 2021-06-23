@@ -60,3 +60,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'devise', '~> 4.8'
 gem 'activeadmin', '~> 2.9'
 gem 'pry', '~> 0.14.1'
+group :production do
+  gem 'pg'
+  gem 'spring'
+end
